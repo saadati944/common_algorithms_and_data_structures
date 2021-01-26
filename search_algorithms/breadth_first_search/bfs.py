@@ -1,3 +1,27 @@
+
+class Queue():
+    '''
+    queue data structure in python
+    '''
+    def __init__(self):
+        '''
+        create elements array
+        '''
+        self.elements=[]
+    
+    def enqueue(self, item):
+        '''
+        add an item to the elements
+        '''
+        self.elements.append(item)
+    
+    def dequeue(self):
+        '''
+        get the first item of the elements
+        '''
+        return self.elements.pop(0)
+
+
 class Edge:
     '''
     the edge class represents an edge from one vertex to another
@@ -40,30 +64,35 @@ class Graph:
     def __str__(self):
         return f"Vertices : {', '.join([str(x) for x in self.vertices])}\nEdges : {', '.join([str(x) for x in self.edges])}"
 
-# The above classes are required to implement dfs
+# The above classes are required to implement bfs
 
-def dfs(g, find, v, visited = [], path=[]):
+def bfs(g:Graph, find, v=None, queue:Queue=Queue(), visited=[]):
     '''
-    the depth first search algorithm implemented in python
+    the breadth first search algorithm implemented in python
     '''
+    if v == None:
+        v = queue.dequeue()
+    
     if v in visited:
+        if queue.elements:
+            bfs(g, find, None, queue, visited)
         return
-    path.append(v)
-    if v == find:
-        return path
     visited.append(v)
-    edges = g.get_edges(v)
-    for e in edges:
-        out = dfs(g, find, e.To, visited, path)
-        if out != None:
-            return out
-    path.pop()
+    
+    if v == find:
+        print('found')
+        return
+    
+    for e in g.get_edges(v):
+        queue.enqueue(e.To)
+    
+    bfs(g, find, None, queue, visited)
     return None
 
 
 def main():
     r"""
-    test dfs function
+    test bfs function
     give
           0 
          / \ 
@@ -75,7 +104,7 @@ def main():
        |     |
        8     9
 
-    to the dfs function and find a path from 0 to 9
+    to the bfs function and it would find 9
     """
     import random
 
@@ -85,8 +114,7 @@ def main():
                     Edge(1, 5), Edge(4, 8), Edge(2, 6), Edge(2, 7),
                     Edge(6, 9), Edge(5, 6)]
     
-    path = dfs(g, 9, 0)
-    print(' => '.join([str(x) for x in path]))
+    bfs(g, 9, 0)
 
 
 if __name__=="__main__":
