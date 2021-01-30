@@ -1,5 +1,7 @@
 # Factorial
 
+[read more in wikipedia](https://en.wikipedia.org/wiki/Factorial)
+
 In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n:
 
 *`n! = n.(n-1)(n-2).(n-3)...3.2.1`*
