@@ -1,0 +1,3 @@
+# Match parentheses
+
+Bracket matching, also known as brace matching or parentheses matching, is a syntax highlighting feature of certain text editors and integrated development environments that highlights matching sets of brackets (square brackets, curly brackets, or parentheses) in languages such as Java, JavaScript, and C++ that use them. The purpose is to help the programmer navigate through the code and also spot any improper matching, which would cause the program to not compile or malfunction. If a closing bracket is left out, for instance, the compiler will not know that the end of a block of code has been reached. Bracket matching is particularly useful when many nested if statements, program loops, etc. are involved.
