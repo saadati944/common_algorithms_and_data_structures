@@ -13,3 +13,8 @@ Also if you know another algorithm or data structure which was not in here, crea
 
 I will be happy while merging pull requests :)
 
+## Table of Contents (in order of increasing difficulty)
+
+- [Data structures](./data_structures)
+  - [Stack](./data_structures/stack_structure)
+  - [Queue](./data_structures/queue_structure)
