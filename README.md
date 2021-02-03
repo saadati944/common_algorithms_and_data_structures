@@ -41,3 +41,10 @@ I will be happy while merging pull requests :)
 - [Path finding algorithms](./path_finding_algorithms)
   - [Maze (DFS)](./path_finding_algorithms/maze_dfs)
   - [Graph shortest path (BFS)](./path_finding_algorithms/bfs_shortest_path.py)
+
+
+# Refrences
+
+The main refrence is this book :
+
+![Introduction to algorithms](./docs/intro_to_algos.jpg)
