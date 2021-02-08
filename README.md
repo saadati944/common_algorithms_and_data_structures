@@ -1,6 +1,6 @@
 # common_algorithms_and_data_structures
 
-these are the most common algorithms and data structures that I think every programmer should know
+Implementation of the most common programming algorithms in different languages
 
 If you are new to programming, then this repo is your starting point to become a better programmer.
 
