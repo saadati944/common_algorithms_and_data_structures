@@ -12,7 +12,6 @@ If your code is better than mine or yours is in another language that does not e
 
 Also if you know another algorithm or data structure that was not in here, create a pull request and add it to this repo.
 
-I will be happy while merging pull requests :)
 
 ## Table of Contents (in order of increasing difficulty)
 
@@ -36,6 +35,7 @@ I will be happy while merging pull requests :)
   - [Insertion sort](./sorting_algorithms/insertion_sort)
   - [Bubble sort](./sorting_algorithms/bubble_sort)
   - [Merge sort](./sorting_algorithms/merge_sort)
+  - [Quick sort](./sorting_algorithms/quick_sort)
 - [Recursive algorithms](./recursive_algorithms)
   - [Factorial](./recursive_algorithms/factorial)
   - [Fibonacci](./recursive_algorithms/fibonacci)
