@@ -44,6 +44,7 @@ Also if you know another algorithm or data structure that was not in here, creat
   - [Maze (DFS)](./path_finding_algorithms/maze_dfs)
   - [Graph shortest path (BFS)](./path_finding_algorithms/bfs_shortest_path.py)
 - [Design patterns](./design_patterns)
+  - [Creational patterns](./design_patterns/creational_patterns)
 
 # Contributing
 
