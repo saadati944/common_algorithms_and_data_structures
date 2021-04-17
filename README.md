@@ -51,6 +51,4 @@ Feel free :)
 
 # References
 
-The main reference is this book :
-
-![Introduction to algorithms](./docs/intro_to_algos.jpg)
+- Introduction to algorithms (CLRS)
