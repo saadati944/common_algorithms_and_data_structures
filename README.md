@@ -45,6 +45,7 @@ Also if you know another algorithm or data structure that was not in here, creat
   - [Graph shortest path (BFS)](./path_finding_algorithms/bfs_shortest_path.py)
 - [Design patterns](./design_patterns)
   - [Creational patterns](./design_patterns/creational_patterns)
+    - [Abstract factory pattern](./design_patterns/creational_patterns/abstract_factory_pattern)
 
 # Contributing
 
