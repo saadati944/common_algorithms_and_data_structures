@@ -46,6 +46,7 @@ Also if you know another algorithm or data structure that was not in here, creat
 - [Design patterns](./design_patterns)
   - [Creational patterns](./design_patterns/creational_patterns)
     - [Abstract factory pattern](./design_patterns/creational_patterns/abstract_factory_pattern)
+    - [Builder pattern](./design_patterns/creational_patterns/builder_pattern)
 
 # Contributing
 
