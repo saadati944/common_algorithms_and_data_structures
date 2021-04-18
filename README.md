@@ -1,4 +1,4 @@
-# common_algorithms_and_data_structures
+# common algorithms and data structures and design patterns
 
 Implementation of the most common programming algorithms in different languages
 
