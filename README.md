@@ -4,14 +4,6 @@ Implementation of the most common programming algorithms in different languages
 
 If you are new to programming, then this repo is your starting point to become a better programmer.
 
-# how to use this repository?
-
-According to the list below, start reading the readme of each part and try to write a code for that algorithm or data structure. After that (or if you couldn't write the code yourself) check my codes.
-
-If your code is better than mine or yours is in another language that does not exist here, please create a pull request and add your codes.
-
-Also if you know another algorithm or data structure that was not in here, create a pull request and add it to this repo.
-
 
 ## Table of Contents (in order of increasing difficulty)
 
@@ -57,3 +49,5 @@ Feel free :)
 # References
 
 - Introduction to algorithms (CLRS)
+- [Wikipedia](https://wikipedia.org)
+- [Refactoring.Guru](https://refactoring.guru/)
