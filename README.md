@@ -41,6 +41,7 @@ If you are new to programming, then this repo is your starting point to become a
     - [Builder pattern](./design_patterns/creational_patterns/builder_pattern)
     - [Factory pattern](./design_patterns/creational_patterns/factory_method)
     - [Prototype](./design_patterns/creational_patterns/prototype)
+    - [Singleton](./design_patterns/creational_patterns/singleton)
 
 # Contributing
 
