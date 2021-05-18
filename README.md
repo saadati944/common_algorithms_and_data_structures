@@ -42,7 +42,7 @@ If you are new to programming, then this repo is your starting point to become a
     - [Factory pattern](./design_patterns/creational_patterns/factory_method)
     - [Prototype](./design_patterns/creational_patterns/prototype)
     - [Singleton](./design_patterns/creational_patterns/singleton)
-
+  - [Structural patterns](./design_patterns/structural_patterns)
 # Contributing
 
 Feel free :)
