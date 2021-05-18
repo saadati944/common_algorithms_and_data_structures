@@ -43,6 +43,7 @@ If you are new to programming, then this repo is your starting point to become a
     - [Prototype](./design_patterns/creational_patterns/prototype)
     - [Singleton](./design_patterns/creational_patterns/singleton)
   - [Structural patterns](./design_patterns/structural_patterns)
+    - [Adapter](./design_patterns/structural_patterns/adapter)
 # Contributing
 
 Feel free :)
