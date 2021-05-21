@@ -44,6 +44,7 @@ If you are new to programming, then this repo is your starting point to become a
     - [Singleton](./design_patterns/creational_patterns/singleton)
   - [Structural patterns](./design_patterns/structural_patterns)
     - [Adapter](./design_patterns/structural_patterns/adapter)
+    - [Bridge](./design_patterns/structural_patterns/bridge)
 # Contributing
 
 Feel free :)
